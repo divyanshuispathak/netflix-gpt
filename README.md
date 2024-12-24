@@ -18,6 +18,8 @@
 - BugFix - If the user is not logged in redirect /browse to login page and vice-versa
 - Unsubscribed to the onAuthStateChanged callback
 - Add Hardcoded values to the constants file
+- Register TMDB api & create an app ang get access token
+- Get data from TMDB now playing movies list
 
 # Features
 - Login/Signup Page -> redirect to browse page
