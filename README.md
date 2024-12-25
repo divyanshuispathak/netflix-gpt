@@ -20,6 +20,14 @@
 - Add Hardcoded values to the constants file
 - Register TMDB api & create an app ang get access token
 - Get data from TMDB now playing movies list
+- Created custom hooks for norPlayingMovies
+- Created a new slice for movie
+- Updated the store
+- Planning for MainContainer and Secondary container
+- Fetch data for trailer video
+- Update store with trailer video data
+- Embedded the youtube video and make it autoplay and mute
+- tailwind classes to make it look better
 
 # Features
 - Login/Signup Page -> redirect to browse page
