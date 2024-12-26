@@ -34,6 +34,7 @@
 - Found TMDB image CDN
 - Made browse UI better
 - usePopularMovies custom hook created
+- GPT search feature
 
 # Features
 - Login/Signup Page -> redirect to browse page
