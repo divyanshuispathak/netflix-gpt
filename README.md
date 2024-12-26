@@ -35,6 +35,7 @@
 - Made browse UI better
 - usePopularMovies custom hook created
 - GPT search feature
+- Multi Lingual feature in our app(******)
 
 # Features
 - Login/Signup Page -> redirect to browse page
