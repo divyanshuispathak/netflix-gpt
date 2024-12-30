@@ -1,4 +1,105 @@
 # Netflix GPT
+
+Netflix GPT is a feature-rich web application designed to enhance your movie browsing experience with features such as tailored movie recommendations, integration with TMDB, and an advanced GPT-powered movie search.
+
+## Table of Contents
+1. [Features](#features)
+2. [Technologies Used](#technologies-used)
+3. [Setup and Installation](#setup-and-installation)
+4. [Available Scripts](#available-scripts)
+5. [Project Structure](#project-structure)
+6. [Deployment](#deployment)
+7. [Future Enhancements](#future-enhancements)
+
+---
+
+## Features
+### Authentication
+- **Login/Signup**: Users can create accounts and log in securely.
+- **Session Management**: Ensures authenticated users are redirected to the browse page.
+
+### Browse Page (Post Authentication)
+- **Header**: Provides easy navigation within the application.
+- **Main Movie Section**:
+  - Background trailer with autoplay and mute functionality.
+  - Display of movie title and description.
+  - Personalized movie suggestions powered by TMDB.
+- **Movie List**:
+  - Responsive UI showcasing categorized movies (e.g., popular, now playing).
+  - Dynamic integration with TMDB API.
+
+### Netflix GPT
+- **GPT-Enhanced Search**:
+  - Advanced movie search using OpenAI APIs.
+  - Suggestions fetched from TMDB.
+- **Custom Movie Suggestions**:
+  - Integrated with TMDB for curated lists.
+  - Reusable components for displaying results.
+
+### Additional Features
+- Profile management and sign-out functionality.
+- Responsive design for optimal user experience on all devices.
+
+---
+
+## Technologies Used
+- **Frontend**: React, TailwindCSS
+- **State Management**: Redux Toolkit
+- **Backend**: Firebase Authentication, Firestore
+- **APIs**: TMDB API, OpenAI GPT
+- **Deployment**: Firebase Hosting
+
+---
+
+## Setup and Installation
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+   git clone https://github.com/your-repository/netflix-gpt.git
+
+2. Navigate to the project directory:
+   cd netflix-gpt
+
+3. Install dependencies:
+   npm install
+
+4. Set up environment variables:
+   - Create a .env file in the root directory.
+   - Add the following keys:
+        * REACT_APP_TMDB_API_KEY=your_tmdb_api_key
+        * REACT_APP_FIREBASE_API_KEY=your_firebase_api_key
+        * REACT_APP_OPENAI_API_KEY=your_openai_api_key
+
+5. Start the development server:
+   npm start
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Netflix GPT
 - Create React App
 - Configured TailwindCSS
 - Routing
